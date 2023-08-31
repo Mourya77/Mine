@@ -1,0 +1,136 @@
+body{
+    background-color: #FFF3DA;
+    justify-content: center;
+    color: black;
+    
+}
+a{
+    color : black;
+    text-decoration: none;  
+}
+
+/* NavBar */
+
+.navbar{
+    background-color: #BEADFA;
+}
+
+.nav-home, .navbar-nav > li{
+    /* padding-left:100px; */
+    padding-right:20px;
+  }
+
+  /* Introduction */
+
+  .intro{
+    background-color: #DFCCFB;
+    padding-bottom: 100px;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .intro-para{
+    align-items: center;
+    width: 650px;
+    flex-basis: 100px;
+    line-height: 2;
+    
+  }
+/* carosouel */
+#carouselExampleDark{
+    margin-bottom: 100px;
+}
+
+
+
+
+/* Buttons */
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.btn{
+
+  flex-direction: row;
+  outline: none;
+  /* border: 10px solid #404B69; */
+  font-size: 1.5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 14;
+  font-weight: 900;
+  color: #a8dac0;
+  
+  /* text-shadow: 3px 0 #DBEDF3; */
+  border-radius: 15px;
+  display: inline-block;
+  width: 275px;
+  height: 200px;
+  margin: 10px;
+  background-color: white;
+  
+}
+.btn:hover{
+color:  rgba(1, 1, 1, 0.893);
+}
+
+
+  .agra{
+    background-image: url(Images/agra-fort-2.jpg);
+  }
+
+  .indiaGate{
+    background-image: url(Images/IndiaGate.jpg);
+  }
+
+ .lotus{
+    background-image: url(Images/lotus-temple.jpg);
+ }
+
+ .varanasi{
+    background-image: url(Images/varanasi.jpg);
+ }
+
+ .hawa{
+    background-image: url(Images/HawaMahal.jpg);
+ }
+
+ .jama{
+    background-image: url(Images/Jama-masjid2.jpg);
+ }
+
+ .mysore{
+    background-image: url(Images/Mysore.jpg);
+ }
+
+ .mumbai{
+  background-image: url(Images/Mumbai\ 2.jpg);
+ }
+
+ .minar{
+  background-image: url(Images/qutub-minar2.jpg);
+ }
+
+ .rishikesh{
+  background-image: url(Images/Rishikesh\ 2.jpg);
+ }
+/* .row{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding-top: 20px;
+
+}
+
+.row > *{
+    padding: 10px;
+    flex-basis: 200px;
+    min-width: 300px;
+    background-color: #DAC0A3;    
+    text-align: center;
+} */
